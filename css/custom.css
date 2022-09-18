@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #7981ff;
+}
+/******** header start *******/
+
+header{
+    border-bottom: 1px solid black;
+    padding: 25px 0px;
+    background: white;
+}
+.flex{  
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: calc( 100% - 400px);
+    margin: auto;
+    align-items: center;
+}
+header .container{}
+/*****logo start ******/
+header .container .logo{
+    flex: 0 0 auto;
+    width: 20%;
+}
+header .container .logo a{
+    text-decoration: none;
+}
+header .container .logo a h1{
+    color: #165993;
+    font-size: 25px;
+}
+/*****logo end ******/
+
+/*****nav start******/
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul li{
+    list-style: none;
+}
+ul li a{text-decoration: none;}
+header .container nav{
+    flex: 0 0 auto;
+    width: 80%;
+}
+header .container nav ul{
+    justify-content: flex-end;
+}
+header .container nav ul li{}
+header .container nav ul li a{
+    color: black;
+    font-size: 20px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+header .container nav ul li:last-child a{
+    background: #bce0ff;
+}
+header .container nav ul li a:hover{
+    background: #bce0ff;
+}
+
+/*****nav start******/
+/******** header end ********/
+
+/******banner section start*******/
+.banner-section{}
+.banner-section .container{
+    flex-direction: column;
+    padding: 30px 0px;
+}
+.banner-section .container h5{
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+    line-height: 22px;
+    color: #00000082;
+}
+.banner-section .container h1{
+    font-size: 30px;
+    font-weight: 300;
+    color: #000000bd;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    line-height: 35px;
+}
+.banner-section .container span{}
+
+/******banner section end*********/
+
+/****** portfolio section start *******/
+.portfolio-section{
+    margin-top: 60px;
+}
+.portfolio-section .container{}
+.portfolio-section .container .col-3-1{
+    flex: 0 0 auto;
+    width: 33.33%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.portfolio-section .container .col-3-1 .box{
+    padding: 15px;
+    background: blue;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 65px #f0f8ff6b, -10px -10px 65px #1864a76b;
+
+}
+.portfolio-section .container .col-3-1 .box:hover{
+
+    box-shadow: 10px 10px 65px #1864a76b, -10px -10px 65px #f0f8ff6b;
+}
+
+.portfolio-section .container .col-3-1 .box img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+}
+.portfolio-section .container .col-3-1 .box h1{
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+
+/****** portfolio section end *******/
+
+/***** footer section start *******/
+footer{
+    background: white;
+    padding: 30px 0px;
+}
+footer .container{}
+footer .container .col-2-1{
+    flex: 0 0 auto;
+    width: 50%;
+}
+footer .container .col-2-1 .footer-menu{}
+footer .container .col-2-1 .footer-menu li{}
+footer .container .col-2-1 .footer-menu li a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    padding-right: 10px;
+    color: #000;
+    transition-duration: 0.3s;
+}
+footer .container .col-2-1 .footer-menu li a:hover{
+    color: #000000b3;
+}
+footer .container .col-2-1 .social-link{
+    justify-content: flex-end;
+    align-items: center;
+}
+footer .container .col-2-1 .social-link li{}
+footer .container .col-2-1 .social-link li span{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+footer .container .col-2-1 .social-link li a{
+    font-size: 22px;
+    color: #000;
+    padding-left: 10px;
+    transition-duration: 0.3s;
+}
+footer .container .col-2-1 .social-link li a:hover{
+    
+color: #0009;
+}
+/***** footer section end *******/
+
+
+/***** about page css start****/
+
+.about-content-section .container{
+    width: 900px;
+    margin: auto;
+    padding: 50px 0;
+}
+.about-content-section p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.5;
+}
+.text-center{
+    text-align: center;
+}
+
+
+/***** about page css end ****/
+
+/***** signup form section start ****/
+
+.signup-form-section{
+    padding: 50px 0px;
+}
+.signup-form-section .container{
+}
+.signup-form-section .container .signup{
+    width: 500px;
+    margin: auto;
+}
+form{
+    padding: 10px;background:
+    #025ca763;border-radius: 5px;    
+    box-shadow: 10px 10px 65px #f0f8ff6b, -10px -10px 65px #1864a76b;
+}
+form:hover{   
+    box-shadow: 10px 10px 65px #1864a76b, -10px -10px 65px #f0f8ff6b;
+}
+form label{
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 8px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+form input, textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 10px;
+    border: none;
+    background: #7981ff;
+    border-radius: 5px;
+    color: #fff;
+}
+form input:focus, textarea:focus{
+    outline: none;
+}
+form input::{
+    color: white;
+}
+form span{display: block;margin-top: 10px;font-size: 22px;}
+form input[type="radio"], form input[type="checkbox"]{
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+form label[for="message"]{
+
+display: block;
+
+margin-bottom: 10px;
+}
+
+form [value="Signup"], [value="Login"]{
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+::placeholder{
+    color: white;
+}
+
+form h6{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+form a{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #000ee8;
+    text-decoration: none;
+}
+
+
+/***** signup form section end ****/
+
